@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7185A4832F9B7A09005E069A /* Exceptions for "formulario" folder in "formulario" target */ = {
+		713DEDD72F9F557A00F2C2E5 /* Exceptions for "formulario" folder in "formulario" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,10 +40,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7185A45D2F9B7A08005E069A /* formulario */ = {
+		713DEDCF2F9F557900F2C2E5 /* formulario */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7185A4832F9B7A09005E069A /* Exceptions for "formulario" folder in "formulario" target */,
+				713DEDD72F9F557A00F2C2E5 /* Exceptions for "formulario" folder in "formulario" target */,
 			);
 			path = formulario;
 			sourceTree = "<group>";
@@ -88,10 +88,10 @@
 		7185A4522F9B7A08005E069A = {
 			isa = PBXGroup;
 			children = (
-				7185A45D2F9B7A08005E069A /* formulario */,
 				7185A4742F9B7A09005E069A /* formularioTests */,
 				7185A47E2F9B7A09005E069A /* formularioUITests */,
 				7185A45C2F9B7A08005E069A /* Products */,
+				713DEDCF2F9F557900F2C2E5 /* formulario */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7185A45D2F9B7A08005E069A /* formulario */,
+				713DEDCF2F9F557900F2C2E5 /* formulario */,
 			);
 			name = formulario;
 			packageProductDependencies = (
@@ -293,7 +293,6 @@
 				INFOPLIST_FILE = formulario/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +323,6 @@
 				INFOPLIST_FILE = formulario/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
