@@ -35,11 +35,9 @@ enum SupabaseError: Error {
 
 class SupabaseManager {
     static let shared = SupabaseManager()
-    
-    // TODO: Reemplazar con tus credenciales reales de Supabase
-    private let supabaseURL = "https://zgftqnzenwrwntrqtsrj.supabase.co"
-    private let supabaseKey = "sb_publishable_S3IiXxVYwJZvODum1eOwlg_j9PRtClV"
     private let tableName = "Formulario"
+    private let supabaseKey = Secrets.supabaseKey
+    private let supabaseURL = Secrets.supabaseURL
     
     private init() {}
     
